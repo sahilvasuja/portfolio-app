@@ -25,7 +25,7 @@ export const Section = () => {
           <p>✨ Responsive & Search Engine Optimized</p>
         </div>
         <p className='text-gray-600 pl-2'>
-          Let's transform your online presence! Elevate your business with a professional and high-quality website or web application. 💻✨
+          Let&apos;s transform your online presence! Elevate your business with a professional and high-quality website or web application. 💻✨
         </p>
         <div className="flex space-x-4 pl-2 my-4">
         <Link href="https://www.linkedin.com/in/sahilvasuja/" target="_blank" rel="noopener noreferrer">

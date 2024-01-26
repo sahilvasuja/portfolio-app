@@ -16,7 +16,7 @@ export const Education = () => {
       </div>
       
       <p className='text-gray-700'>
-      Part Of University's Coding Academy, a group of selective students having quality coding skills in the batch </p>
+      Part Of University&apos;s Coding Academy, a group of selective students having quality coding skills in the batch </p>
     </div>
     </div>
   )
