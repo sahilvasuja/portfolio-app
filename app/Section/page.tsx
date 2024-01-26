@@ -38,12 +38,21 @@ export const Section = () => {
           <FaInstagram className="text-pink-600 hover:text-pink-800" size={32} />
         </Link> 
       </div>
+      <div className='flex gap-2'>
       <button
-        className="flex space-x-4 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-2 rounded mr-4"
+        className="flex space-x-4 justify-center border-blue-500 border-2 hover:bg-blue-500  hover:text-white text-blue-500 font-bold py-2 px-4 ml-2 rounded-lg"
         onClick={() => window.open(resumeUrl, '_blank')}
       >
         View Resume
       </button>
+      <button
+        className="flex space-x-4 justify-center bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 ml-2 rounded-lg "
+      
+      >
+       Let's Talk
+      </button>
+      </div>
+      
       </div>
       <div className='relative'>
       <div className='w-48 h-48 border-green-700 border-2 rounded-full overflow-hidden'>

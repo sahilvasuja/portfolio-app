@@ -3,22 +3,27 @@ import { FaBriefcase } from 'react-icons/fa';
 export const Experience = () => {
   return (
     <>
-     <div className='flex flex-col items-center bg-blue-500 py-6 justify-center mt-8'>
-      <h2 className='text-4xl text-white font-bold mb-4 flex gap-2 items-center'>  <FaBriefcase size={32} /> Experience</h2>
-      <div className='bg-white shadow-xl px-8 py-6 lg:w-4/12 rounded-lg'>
-      <h2 className='text-2xl text-blue-500 font-bold mb-2'>Chitkara University</h2>
-      <p className='text-gray-600 mb-4'>Bachelor of Engineering in Computer Science</p>
-      
-      <div className='flex items-center gap-4 mb-4'>
-         <p className='rounded-lg text-sm bg-teal-400 p-1'>AUGUST 2019 - JUNE 2023</p>
-          <p className='rounded-lg text-sm bg-purple-400 p-1'>CGPA: 9.50</p>
-          
-      </div>
-      
-      <p className='text-gray-700'>
-      Part Of University&apos;s Coding Academy, a group of selective students having quality coding skills in the batch </p>
+    
+    <div className='flex flex-col items-center  py-6 justify-center mt-8'>
+      <h2 className='text-4xl font-bold mb-4 flex gap-2 items-center'>
+        <FaBriefcase size={32} /> Experience
+      </h2>
+
+      <article className="w-full md:w-6/12 bg-blue-500 border-t border-r border-l border-primary rounded-b-2rem hover:bg-transparent hover:border-primary-variant cursor-default transition">
+        <div className="p-8 shadow-lg">
+          <h3 className="text-primary text-center text-2xl font-bold">GeekyAnts</h3>
+        </div>
+        <ul className="service_list p-6 md:p-10">
+          <li className="flex flex-col md:flex-row items-center md:items-start gap-2 mb-4">
+            <p className="text-center md:text-left">
+              I worked as a Trainee Software Engineer at GeekyAnts for 16 months. I've been on an exciting journey of continuous learning and professional growth. During my tenure, I had the opportunity to work with technologies like React, Next.js, MongoDB, Node.js, and Express. During my time there, I contributed to three projects, in which two are internal and one is a client project. This experience has been invaluable in building a solid foundation in software development and problem-solving.
+            </p>
+          </li>
+        </ul>
+      </article>
     </div>
-    </div>
+
     </>
   )
 }
+

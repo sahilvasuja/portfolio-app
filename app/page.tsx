@@ -4,7 +4,7 @@ import { Section } from "./Section/page";
 import { Skill } from "./Skill/page";
 import { Whattodo } from "./Whattodo/page";
 import { Experience } from "./Experience/page";
-import { Education } from "./Education/page";
+import  Education  from "./Education/page";
 export default function Home() {
   return (
     <>
