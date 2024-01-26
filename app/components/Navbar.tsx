@@ -13,7 +13,7 @@ export const Navbar = () => {
       }, 3000); // Change color every 3 seconds
   
       return () => clearInterval(intervalId);
-    }, []);
+    }, [colors.length]);
   return (
     <>
     <div className='flex flex-col md:flex-row items-center justify-between p-4 bg-teal-500  text-white'>
